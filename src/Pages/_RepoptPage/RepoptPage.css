@@ -1,0 +1,14 @@
+.conta{
+    background-color: #ebebeb;
+}
+.form-cliens .form-check label{
+    width: 15%;
+    padding-bottom: 1rem;
+
+}
+ .form-cliens .form-check input{
+    width: 1%;
+    margin-right: 2rem;
+
+    border: 1px solid #000;
+}

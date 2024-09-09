@@ -1,0 +1,35 @@
+.footer {
+    background: linear-gradient(#107785, #094e4e);
+    padding: 2rem;
+    position: relative;
+    top: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right:4rem ;
+}
+.footer a{
+    color: #fff;
+}
+.footer  span {
+    padding-right: .8rem;
+    text-decoration: underline;
+}
+@media (max-width:768px) {
+    .footer h1{
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        padding-left: 0rem;
+        padding-right:0.5rem ;
+    }
+}

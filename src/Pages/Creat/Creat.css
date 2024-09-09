@@ -1,0 +1,107 @@
+.creat {
+width: 100%;
+height: 100%;
+}
+.creat h1{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creat .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.creat .search-creat{
+    display: flex;
+    flex-direction: row;
+}
+.creat .search-creat input {
+    margin-left: 1rem;
+    width: 500px;
+}
+.creat .create-creat button{
+    margin-left: 1rem;
+}
+@media (max-width:919px) {
+    .creat .search-creat input {
+        width: 300px;
+    }
+    
+    .form-ap {
+        width: 190%;
+    }
+
+}
+@media (max-width:768px) {
+    .creat .search-creat input {
+        width: 130px;
+    }
+
+    .form-ap {
+        width: 280%;
+    }
+    .form-ap {
+        width: 350%;
+    }
+
+}
+
+
+.form-ap table {
+    position: relative;
+    right: 4rem;
+    width: 290%;
+    margin: 4rem 0;
+}
+.form-ap tbody tr {
+    position: relative;
+    top: 1rem;
+    margin: 2rem;
+
+}
+.form-ap tbody td{
+    padding-left: 1rem;
+}
+
+.form-ap table th{
+    padding-left: 2rem;
+}
+
+/* search all */
+tbody tr td input {
+    margin-bottom: 1rem;
+
+}
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    margin: 0 0.25rem;
+  }
+  
+  .pagination a, .pagination span {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .pagination .active a {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination .disabled a {
+    color: #ccc;
+    pointer-events: none;
+  }

@@ -1,0 +1,87 @@
+
+
+.form-cliens{
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.form-cliens form{
+    position: relative;
+    right: 20rem;
+}
+
+.cliens-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.form-cliens form label{
+    font-size: 20px;
+    padding-left: 4rem;
+
+}
+.form-cliens form input {
+    width: 600px;
+    position: relative;
+    right: -12rem;
+    margin: .4rem;
+}
+.form-cliens .btn-cliens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -20rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.form-cliens .btn-cliens button {
+    margin-left: 2rem;
+    width: 150px;
+}
+@media (max-width:919px) {
+
+    .form-cliens form{
+        position: relative;
+        right: 3rem;
+    }
+
+    .form-cliens form label{
+        font-size: 20px;
+        padding-left: 4rem;
+    
+    }
+    .form-cliens form input {
+        width: 400px;
+        position: relative;
+        right: -3rem;
+        margin: .4rem;
+    }
+
+    .form-cliens .btn-cliens{
+        right: -3rem;
+    }
+}
+@media (max-width:768px) {
+    .form-cliens form{
+        position: relative;
+        right: 4rem;
+    } 
+    
+    .form-cliens form input {
+        width: 300px;
+        position: relative;
+        right: 0rem;
+    }
+    .form-cliens form label{
+        font-size: 18px;
+    
+    }
+    .form-cliens .btn-cliens{
+        right: -3rem;
+    }
+}
